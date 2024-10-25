@@ -1,0 +1,19 @@
+body {
+background-color: #ceeeff ;
+}
+.image-card {
+    border: 1px solid blueviolet; /* สีและขอบของกรอบ */
+    padding: 10px; /* ระยะจากขอบถึงเนื้อหา */
+    width: 80px; /* ความกว้างของกรอบ */
+    text-align: center; /* จัดตำแหน่งข้อมูลให้อยู่ตรงกลาง */
+  }
+  
+  .image {
+    width: 20%; /* ทำให้รูปพอดีกับความกว้างของกรอบ */
+    height: auto; /* ทำให้รูปภาพรักษาอัตราส่วนเดิม */
+  }
+  
+  .caption {
+    margin-top: 10px; /* เพิ่มช่องว่างระหว่างรูปกับข้อความ */
+    color: #555; /* สีของข้อความ */
+  }
