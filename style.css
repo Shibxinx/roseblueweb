@@ -17,3 +17,13 @@ background-color: #ceeeff ;
     margin-top: 10px; /* เพิ่มช่องว่างระหว่างรูปกับข้อความ */
     color: #555; /* สีของข้อความ */
   }
+
+  .image-list {
+    display: flex;
+    flex-direction: column; /* จัดเรียงรูปภาพในแนวตั้ง */
+    gap: 10px; /* ระยะห่างระหว่างรูปภาพ */
+}
+.image-list img {
+    max-width: 100%; /* ปรับขนาดของภาพให้ถูกต้อง */
+    height: auto; /* ให้ภาพปรับขนาดตามความกว้างโดยอัตโนมัติ */
+}
